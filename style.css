@@ -1,0 +1,368 @@
+
+
+/* Default code for desktop/computer  */
+
+*
+{
+
+box-sizing: border-box;
+
+
+}
+
+body{
+margin:0;
+padding:0;
+   overflow-x:hidden ;
+   background-color:whitesmoke;
+
+ 
+  
+
+
+}
+/*Home page----------------------------------------------------------------------------------------*/
+
+
+
+/* Navigation menu-----------------------------------------*/
+.nav-bar{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:#F2F1E8;
+
+
+    font-family:'myriad pro' ;
+}
+
+
+
+ 
+
+
+
+
+/* Full name tag------------------------------------------------*/
+#name-title{
+    font-size: 1.8rem;
+    margin:.5rem;
+    font-family:'myriad pro' ;
+    color: black;
+    position: relative;
+    left:5%;
+
+
+
+}
+
+
+
+/* Navigation menu-------------------------------------------------*/
+.navbar-links ul
+{
+    margin:0;
+    padding:0;
+    display:flex;
+}
+
+.navbar-links li{
+    list-style: none;
+}
+
+.navbar-links li a
+{
+    text-decoration:none;
+    color:black;
+    padding:1.5rem;
+    display:block;
+    font-size: 1.2rem;
+    
+}
+
+.navbar-links li:hover
+{
+background-color: #FF9534;
+}
+
+
+
+/*Header section -----------------------------------------------------------*/
+
+
+#Main-header
+{
+    
+    background-color:#FF9534;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:900% 90%;
+
+    
+    height:340px;
+    margin-top:-15px ;
+    
+
+}
+
+
+#Main-header h1 {
+font-size:50px;
+font-family:'Arial';
+text-align: center;
+color:white;
+
+
+position:absolute;
+left:500px;
+top:200px;
+
+}
+
+#Main-header  h2 {
+    font-size:30px;
+    text-align: center;
+    color:white;
+    
+    
+    position:absolute;
+    left:50px;
+    top:290px;
+
+    }
+    
+
+
+    #box-header
+    {
+        padding:auto;
+       
+    }
+    
+    
+    
+    
+    #Main-header2 p
+    {
+        
+        text-align: center;
+        padding:30px 200px;
+        font-family:'myriad pro' ;
+        font-size: 30px;
+        
+      
+    
+    }
+    
+    #Main-header3
+    {
+        text-align: center;
+        padding:30px 300px;
+        font-size: 10px;
+    
+    }
+ 
+
+
+    
+    #learnMoreButton
+
+    {
+
+        color:white;
+        font-family:'Myriad Pro';
+        font-size:1rem;
+        padding:10px 50px;
+    
+        border-radius: 6px;
+        border: #FF9534;
+    
+        position:relative;
+        bottom: 0px;
+        right: 0px;
+        Background-color: #FF9534;
+         display:inline-block;
+ 
+    }
+
+
+ 
+/*  different kinds of hobbies-----------------------------------------------------*/
+    
+    
+    
+    #Main-content
+    {
+        
+        display:flex;
+        flex-direction: row;
+        text-align:center;
+        margin-right: 255px;
+        font-family:'myriad pro' ;
+        margin-bottom : 80px;
+        font-size: 1rem;
+      
+    }
+
+
+
+    .box-1
+    {
+        flex-basis: 100%; 
+        
+        
+
+    }
+    
+
+    #Main-content h3
+
+    {
+
+    padding-top:50px;
+
+
+    }
+    
+
+    #Main-content2
+    {      
+        display:flex;
+        flex-direction: row;
+        text-align:center;
+        margin-right: 250px;
+        margin-bottom : 80px;
+        font-family:'myriad pro' ;
+        font-size: 1rem;
+    
+      
+    }
+
+
+    #Main-content2 h3
+
+    {
+
+    padding-top:50px;
+
+
+    }
+    
+    
+    .box-2
+    {
+        flex-basis: 100%; 
+    
+    }
+    
+
+
+    #button1 ,#button2,#button3,#button4, #button5, #button6
+    {
+   
+       color:white;
+       font-family:'Myriad Pro';
+       font-size:1rem;
+       padding:10px 40px;
+   
+       border-radius: 6px;
+       border: #FF9534;
+   
+        position:relative;
+        bottom: -20px;
+        Background-color: #FF9534;
+        display:inline-block;
+
+    }
+
+
+
+    #textButton1, #textButton2, #textButton3,#textButton4,#textButton5, #textButton6
+
+
+    {
+        font-family:'Myriad Pro' ;
+        font-size:1.2rem;
+        padding:30px 10px;
+        display:inline-block;
+
+    }
+
+
+/* Footer------------------------------------------------------*/
+
+#footer
+{
+    
+background: #FF9534;
+height: auto;
+width:100vw;
+font-family: 'myriad pro';
+padding-top: 40px;
+padding-bottom: 40px;
+text-align: center;
+color: white;
+
+
+
+}
+
+#footer h2 , p 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.7rem;
+    font-family: 'myriad pro';
+    
+  
+  
+}
+
+.footer-2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-2 p{
+font-size: 1.8rem;
+font-weight: 400;
+text-transform: capitalize;
+line-height: 3rem;
+
+}
+
+
+.footer-2{ 
+    max-width:500px;
+    margin:10px auto;
+    line-height: 28px;
+    font-size: 14px;;
+}
+
+.social-media{
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 1rem 0 3rem 0;
+
+
+}
+
+
+
+
+.social-media li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/*-------------------------------------------------------------*/
+
+
